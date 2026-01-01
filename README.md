@@ -4,15 +4,6 @@
 
 ---
 
-## Features
-
-- **Full Chip-8 instruction set** implemented.
-- **SDL3-based rendering** for smooth graphics.
-- **Keyboard input** mapped to Chip-8 hex keypad.
-- **Delay and sound timers** for accurate timing.
-
----
-
 ## Screenshots
 
 ![Gameplay 1](screenshots/tank.png)  
@@ -24,13 +15,14 @@
 
 ### Requirements
 
-- **C compiler** (GCC, Clang, etc.)
+- **C compiler** 
 - **SDL3 development libraries**
 - Make or build system (optional)
 
 ### Building
 
 - clear instructions commented in main.c preferebly use gcc with appropriate flags (also commented).
+- compile all the files in /src and run
 
 ### Notes
 
