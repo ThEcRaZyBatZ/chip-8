@@ -9,7 +9,7 @@ int main(){
     struct display screen={0};
     struct CPU cpu={0};
     cpu.PC=0x200;
-    FILE* f=fopen("../ROMs/tetris.ch8","rb");
+    FILE* f=fopen("./ROMs/tetris.ch8","rb");
     if(f==NULL){
         SDL_Log("ROM read Failed");
         screen_free(&screen);
